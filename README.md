@@ -23,7 +23,7 @@ This creates a record in each of the event and restaurant tables, and two record
 ```bash
 Review.all
 # Review Load (0.4ms)  SELECT "reviews".* FROM "reviews" LIMIT $1  [["LIMIT", 11]]
-#=< #<ActiveRecord::Relation [
+#=>s #<ActiveRecord::Relation [
 #    <Review id: 1, review_date: nil, title: nil, review: nil, created_at: "2020-09-21 14:22:04", updated_at: "2020-09-21 14:22:04", reviewable_type: "Event", reviewable_id: 1>,
 #    <Review id: 2, review_date: nil, title: nil, review: nil, created_at: "2020-09-21 14:22:38", updated_at: "2020-09-21 14:22:38", reviewable_type: "Restaurant", reviewable_id: 1>;
 #    ]>

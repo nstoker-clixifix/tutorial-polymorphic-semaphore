@@ -2,4 +2,4 @@ filename: doc/erd
 filetype: png
 polymorphism: true
 title: Semaphore Polymorphism tutorial
-exclude: ApplicationRecord
+exclude: ApplicationRecord ActiveRecord
